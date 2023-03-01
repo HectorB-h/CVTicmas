@@ -1,0 +1,154 @@
+
+/* Fuente */
+* {
+  font-family: 'Tilt Neon', cursive;
+}
+
+/* Estilo de página */
+body {
+  background-color: black;
+  background-image: url('bggrey.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* Encabezado */
+header {
+  background-color: black;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 0.5rem 1rem;
+  color: red;
+  border: 5px solid white;
+  text-align: center;
+  text-shadow: 3px 3px 2px black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Imagen */
+img {
+  border: 5px solid black;
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+}
+
+.nombre {
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+.foto {
+  display: flex;
+  align-items: center;
+}
+
+.foto img {
+  max-width: 100%;
+  height: auto;
+}
+
+.texto {
+  padding-left: 20px;
+}
+
+.texto h2 {
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Espacio para la imagen */
+#personafoto1 {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("personafoto1.jpeg");
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+/* Sección principal */
+p{
+  text-indent: 30px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+main h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #8b0000;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+
+header i {
+  font-size: 20px;
+  margin: 0 18px;
+  align-self: center;
+}
+
+/* Animación */
+section:hover {
+  cursor: pointer;
+}
+
+.clicked-section {
+  animation: clicked-section-animation 0.5s ease-in-out;
+}
+
+@keyframes clicked-section-animation {
+  0% {
+    background-color: lightgray;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: lightgray;
+  }
+}
